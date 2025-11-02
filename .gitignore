@@ -1,6 +1,28 @@
+# Python cache and temp files
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+
+# Environment variables
 .env
+
+# IDE settings
 .vscode/
+.idea/
+
+# Model and dataset directories (handled separately or via Google Drive/Kaggle)
 models/
 data/
+
+# Large model or weight files
+*.pkl
+*.onnx
+*.h5
+
+# System-specific files
+.DS_Store
+Thumbs.db
